@@ -8,4 +8,7 @@ Berechnen Sie die Summe der beiden Zahlen.
 Geben Sie die Summe der Zahlen in die Konsole aus:
 "Die Summe der Zahlen ist: summe"
 */
-
+ersteZahl = prompt("erste Zahl: ");
+zweiteZahl = prompt("zweite zahl: ");
+sum = parseFloat(ersteZahl) + parseFloat(zweiteZahl);
+console.log("Die Summe von "+ ersteZahl + " und " + zweiteZahl + " ist " + sum);
